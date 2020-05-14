@@ -1,5 +1,7 @@
 package cn.xhjava.scala.chapter09
 
+
+//隐式方法
 object Scala02_Transform1 {
   def main(args: Array[String]): Unit = {
 

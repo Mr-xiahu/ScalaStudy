@@ -1,5 +1,6 @@
 package cn.xhjava.scala.chapter09
 
+//隐式转换机介绍
 object Scala01_Transform {
   def main(args: Array[String]): Unit = {
     /**
