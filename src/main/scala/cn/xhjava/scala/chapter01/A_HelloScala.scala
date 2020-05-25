@@ -1,4 +1,4 @@
-package cn.xhajva.scala.chapter01
+package cn.xhjava.scala.chapter01
 
 object A_HelloScala {
 

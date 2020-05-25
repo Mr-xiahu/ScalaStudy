@@ -1,4 +1,4 @@
-package cn.xhajva.scala.chapter060708
+package cn.xhjava.scala.chapter060708
 
 //import java.util.Date
 //import用于导类

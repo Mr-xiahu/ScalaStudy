@@ -1,4 +1,4 @@
-package cn.xhajva.scala.chapter060708
+package cn.xhjava.scala.chapter060708
 
 //类信息
 object Scala10_ClassInfo {

@@ -1,4 +1,4 @@
-package cn.xhajva.scala.chapter060708
+package cn.xhjava.scala.chapter060708
 
 //scala会自动导入scala包中的类
 object Scala10_ClassInfo2 extends App {

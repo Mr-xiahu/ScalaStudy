@@ -1,4 +1,4 @@
-package cn.xhajva.scala.chapter060708
+package cn.xhjava.scala.chapter060708
 
 //构造方法
 object Scala07_Construct {

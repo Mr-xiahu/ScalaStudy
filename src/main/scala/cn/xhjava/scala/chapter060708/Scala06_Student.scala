@@ -1,5 +1,4 @@
-package cn.xhajva.scala.chapter060708
-
+package cn.xhjava.scala.chapter060708
 
 //伴生类(成员)
 class Scala06_Student {

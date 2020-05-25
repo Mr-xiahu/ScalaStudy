@@ -1,5 +1,4 @@
-package cn.xhajva.scala.chapter060708
-
+package cn.xhjava.scala.chapter060708
 
 //接口
 //scala中没有接口的概念,有特质(trait)的概念，类似于接口

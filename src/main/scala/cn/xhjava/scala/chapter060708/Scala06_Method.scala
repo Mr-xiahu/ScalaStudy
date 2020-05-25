@@ -1,4 +1,4 @@
-package cn.xhajva.scala.chapter060708
+package cn.xhjava.scala.chapter060708
 
 //类的方法
 //方法:就是在类中声明函数.但是在调用方式上是存在区别的;
