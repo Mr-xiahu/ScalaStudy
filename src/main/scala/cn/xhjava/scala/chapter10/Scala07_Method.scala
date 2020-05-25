@@ -40,8 +40,52 @@ object Scala07_Method {
     //map 转换
     val tuples: List[(Int, Int)] = list.map((_, 1))
 
-    //reduce
 
+    //take  获取集合的前N个
+    val ints: List[Int] = list.take(10)
+
+    //WordCount
+    val wordList = List("hello", "scala", "hello", "spark", "hello", "world", "scala")
+    //1.分组
+    val groupByWordMap: Map[String, List[String]] = wordList.groupBy(x => x)
+    //2.转换格式
+    val wordAndCount: Map[String, Int] = groupByWordMap.map(element => {
+      (element._1, element._2.size)
+    })
+    //3.排序
+    val sortList: List[(String, Int)] = wordAndCount.toList.sortWith((left, right) => {
+      left._2 > right._2
+    })
+    sortList.take(2).foreach(println(_))
+
+
+    //扁平化操作:将一个整体的内容拆成一个一个的个体
+    val list2 = List("ni hao ya", "wo hen hao", "zhen de ma")
+
+    val strings: List[String] = list2.flatMap(_.split(" "))
+
+    //过滤 可以整除2的留下来
+    val intss: List[Int] = list.filter(x => {
+      x % 2 == 0
+    })
+
+
+    //zip 拉链
+    val list3 = List(1, 2, 3)
+    val list4 = List(4, 5, 6)
+    val tuple3: List[(Int, Int)] = list3.zip(list4)
+
+    //union 集合并集
+    val list5: List[Int] = list3.union(list4)
+
+    //集合交集
+    list3.intersect(list4)
+
+
+    //集合差集
+    list3.diff(list4)
+
+    //reduce
 
 
   }
