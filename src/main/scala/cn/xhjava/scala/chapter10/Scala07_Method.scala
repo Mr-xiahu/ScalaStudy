@@ -85,7 +85,6 @@ object Scala07_Method {
     //集合差集
     list3.diff(list4)
 
-    //reduce
 
 
   }
